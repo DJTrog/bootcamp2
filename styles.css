@@ -1,20 +1,120 @@
-.box1 {
-  background-color: lightblue;
-  height: 150px;
+body {
+  margin: 0px;
 }
-.box2 {
-  background-color: pink;
-  height: 150px;
+.hero-background {
+    height: 550px;
+    background-image: url('images/Focusrite_Console_02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat center center;
+    margin-top: 10px;
 }
-.box3 {
-  background-color: lightblue;
-  height: 150px;
+.button {
+    background-color: rgba(91, 114, 9, 0.5); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Permanent Marker';
+    border-radius: 25px;
+    /**margin: 0 auto;**/
 }
-.box4 {
-  background-color: lightgreen;
-  height: 150px;
+.absolute {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    width: 325px;
+    height: 125px;
+    /**border: 3px solid #73AD21;**/
 }
-.box5 {
-  background-color: gold;
-  height: 150px;
+.h1 {
+  font-family:'Permanent Marker', cursive; sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: left;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+.body-text {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Abril Fatface', cursive;
+}
+.col1 {
+  background-color: #5b7209;
+  /**width: 100%;**/
+  height: auto;
+  padding: 10px;
+  border: 3px solid #ffffff;
+}
+.col2 {
+  background-color: #79980b;
+  /**width: 100%;**/
+  height: auto;
+  padding: 10px;
+  border: 3px solid #ffffff;
+}
+.col3 {
+  background-color: #98be0e;
+  /**width: 100%;**/
+  height: auto;
+  padding: 10px;
+  border: 3px solid #ffffff;
+}
+.col4 {
+  background-color: #effbc6;
+  height: 250px;
+  padding: 10px;
+  border: 3px solid #ffffff;
+
+}
+.col5 {
+  background-color: #e5f8a0;
+  height: 250px;
+  padding: 10px;
+  border: 3px solid #ffffff;
+
+}
+/*.row {
+  height: auto;
+  width: 100%
+}*/
+.row1 {
+  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.row2 {
+  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.row3 {
+
+  height: auto;
+  width: 100%;
+  padding: 5px;
 }
